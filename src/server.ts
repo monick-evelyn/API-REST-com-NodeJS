@@ -1,9 +1,12 @@
 import fastify from 'fastify'
+import {knexCode} from './database.js'
 
 const app = fastify()
 
-app.get('/hello', () => {
-  return 'Hello World'
+app.get('/hello', async () => {
+  const tables = await knexCode('sqlite_schema').select('*')
+
+  return tables
 })
 
 app
