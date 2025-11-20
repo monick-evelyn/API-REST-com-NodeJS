@@ -20,5 +20,8 @@
   "homepage": "https://github.com/monick-evelyn/API-REST-com-NodeJS#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fastify": "^5.6.2"
   }
 }
