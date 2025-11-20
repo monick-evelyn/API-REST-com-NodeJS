@@ -4,7 +4,8 @@
   "description": "Criando API Rest com NodeJS",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslit src --ext .ts --fix"
   },
   "repository": {
     "type": "git",
