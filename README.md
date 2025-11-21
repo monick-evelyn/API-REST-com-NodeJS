@@ -4,7 +4,7 @@ Criando API Rest com NodeJS acompanhado as aulas do curso de NodeJS da Rocketsea
 # Base do Projeto (RF, RN, RNF)
 ### Requisitos Funcionais
 - O usuário deve poder:   
-    - [ ] Criar uma nosa transação;   
+    - [ ] Criar uma nova transação;   
     - [ ] Obter um resumo da sua conta;   
     - [ ] Listar todas as transações que já ocorreram;   
     - [ ] Visualizar uma transação única;   
