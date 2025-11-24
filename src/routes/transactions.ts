@@ -92,11 +92,12 @@ export async function transactionsRoutes(app: FastifyInstance) {
         maxAge: 1000 * 60 * 60 * 24 * 7 // cookie vai expirar em 7 dias
       })
     }
-
+    /*
     console.log(title)
     console.log(amount)
     console.log(type)
     console.log(sessionId)
+    */
 
     await knexCode('transactions')
       .insert({
