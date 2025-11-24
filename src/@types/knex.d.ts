@@ -5,7 +5,7 @@ declare module 'knex/types/tables.d.ts' {
         transactions: {
             id: string,
             title: string,
-            amout: number,
+            amount: number,
             created_at: string,
             session_id?: string
         }
