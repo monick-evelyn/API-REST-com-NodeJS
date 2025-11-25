@@ -1,3 +1,3 @@
-import {config} from './src/database.js'
+import {config} from './build/database.cjs'
 
 export default config
