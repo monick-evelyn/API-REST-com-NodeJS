@@ -2,7 +2,7 @@
   "name": "api-rest-com-nodejs",
   "version": "1.0.0",
   "description": "Criando API Rest com NodeJS",
-  "main": "index.js",
+  "main": "build/server.cjs",
   "engines": {
     "node": ">= 18"
   },
