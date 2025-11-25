@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "npx knex",
-    "build": "tsup src --out-dir build",
+    "build": "npx tsup src --out-dir build",
     "test": "npx vitest"
   },
   "repository": {
