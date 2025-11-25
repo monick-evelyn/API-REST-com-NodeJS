@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "node --no-warnings --import tsx node_modules/knex/bin/cli.js",
+    "knex": "node --no-warnings --import node_modules/knex/bin/cli.js",
     "build": "tsup src --out-dir build",
     "test": "npx vitest"
   },
@@ -42,7 +42,6 @@
     "knex": "^3.1.0",
     "pg": "^8.16.3",
     "tsup": "^8.5.1",
-    "tsx": "^4.20.6",
     "zod": "^4.1.12"
   }
 }
