@@ -2,8 +2,8 @@
 node_modules
 
 # Database
-db/app.db
-db/test.db
+*.db
+
 
 # Environment
 .env
