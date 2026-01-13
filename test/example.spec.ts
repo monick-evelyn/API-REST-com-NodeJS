@@ -6,7 +6,7 @@ import { beforeEach } from 'node:test'
 
 describe('Transactions routes', () => {
     beforeAll(async () => {
-        execSync('npm run knex migrate:latest')
+        //execSync('npm run knex -- migrate:latest')
         await app.ready()
     })
 
